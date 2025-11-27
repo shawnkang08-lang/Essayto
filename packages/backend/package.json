@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsup",
-    "start": "node dist/index.js",
+    "start": "npm run migrate && node dist/index.js",
+    "start:prod": "node dist/index.js",
     "migrate": "tsx src/scripts/migrate.ts",
     "test": "jest",
     "test:connection": "tsx src/test-connection.ts",
