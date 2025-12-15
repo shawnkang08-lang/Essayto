@@ -78,7 +78,7 @@ export default function ProgressPage() {
                 onClick={() => navigate('/')}
                 className="text-2xl font-bold text-primary-600 hover:text-primary-700"
               >
-                PAPERPAL
+                ESSAYTO
               </button>
               <div className="flex space-x-4">
                 <button

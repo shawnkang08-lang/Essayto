@@ -57,7 +57,7 @@ app.use('/api', apiLimiter);
 // API routes placeholder
 app.get('/api', (_req: Request, res: Response) => {
   res.json({
-    message: 'PAPERPAL API v1.0.0',
+    message: 'ESSAYTO API v1.0.0',
     version: '1.0.0',
     documentation: '/api/docs',
   });
@@ -142,7 +142,7 @@ async function startServer() {
   await initializeApp();
   
   const server = app.listen(PORT, () => {
-    console.log(`🚀 PAPERPAL API server running on http://localhost:${PORT}`);
+    console.log(`🚀 ESSAYTO API server running on http://localhost:${PORT}`);
     console.log(`📊 Health check: http://localhost:${PORT}/health`);
     console.log(`🌍 Environment: ${NODE_ENV}`);
   });

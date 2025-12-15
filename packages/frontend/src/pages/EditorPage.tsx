@@ -60,7 +60,7 @@ export default function EditorPage() {
                 onClick={() => navigate('/')}
                 className="text-2xl font-bold text-primary-600 hover:text-primary-700"
               >
-                PAPERPAL
+                ESSAYTO
               </button>
             </div>
             <div className="flex items-center space-x-4">
