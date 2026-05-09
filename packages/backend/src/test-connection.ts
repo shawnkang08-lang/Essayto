@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-console.log('🔍 Testing PAPERPAL Backend Configuration...\n');
+console.log('🔍 Testing ESSAYTO Backend Configuration...\n');
 
 // Check environment variables
 console.log('📋 Environment Variables:');

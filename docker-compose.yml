@@ -4,11 +4,11 @@ services:
   # PostgreSQL Database
   postgres:
     image: postgres:15-alpine
-    container_name: paperpal-postgres
+    container_name: essayto-postgres
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
-      POSTGRES_DB: paperpal
+      POSTGRES_DB: essayto
     ports:
       - "5432:5432"
     volumes:
@@ -22,7 +22,7 @@ services:
   # Redis Cache (Optional)
   redis:
     image: redis:7-alpine
-    container_name: paperpal-redis
+    container_name: essayto-redis
     ports:
       - "6379:6379"
     volumes:

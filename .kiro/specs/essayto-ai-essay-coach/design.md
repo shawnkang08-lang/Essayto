@@ -1,8 +1,8 @@
-# Design Document - PAPERPAL AI Essay Coach
+# Design Document - ESSAYTO AI Essay Coach
 
 ## Overview
 
-PAPERPAL is a cross-platform (mobile and web) AI-powered essay coaching system that provides real-time writing feedback, corrections, and personalized learning paths across Indonesian, Chinese, and English languages. The system architecture follows a client-server model with a React-based frontend (using Kiro for mobile), a Node.js/Express backend, and integration with LLM APIs for AI-powered corrections.
+ESSAYTO is a cross-platform (mobile and web) AI-powered essay coaching system that provides real-time writing feedback, corrections, and personalized learning paths across Indonesian, Chinese, and English languages. The system architecture follows a client-server model with a React-based frontend (using Kiro for mobile), a Node.js/Express backend, and integration with LLM APIs for AI-powered corrections.
 
 ### Design Principles
 
@@ -995,7 +995,7 @@ test('complete essay correction flow', async ({ page }) => {
 
 ## Conclusion
 
-This design provides a comprehensive, scalable architecture for PAPERPAL that meets all requirements while maintaining performance, security, and user experience standards. The modular service-based architecture allows for independent scaling and future feature additions without major refactoring.
+This design provides a comprehensive, scalable architecture for ESSAYTO that meets all requirements while maintaining performance, security, and user experience standards. The modular service-based architecture allows for independent scaling and future feature additions without major refactoring.
 
 Key design decisions:
 - **Microservices approach** for scalability and maintainability

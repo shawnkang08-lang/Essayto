@@ -1,4 +1,4 @@
-# PAPERPAL - AI Essay Coach & Corrector
+# ESSAYTO - AI Essay Coach & Corrector
 
 AI-powered essay coaching platform supporting Indonesian, Chinese, and English languages.
 
@@ -39,7 +39,7 @@ AI-powered essay coaching platform supporting Indonesian, Chinese, and English l
 1. Clone the repository
 ```bash
 git clone <repository-url>
-cd paperpal-monorepo
+cd essayto-monorepo
 ```
 
 2. Install dependencies
@@ -61,7 +61,7 @@ cp packages/frontend/.env.example packages/frontend/.env
 4. Set up database
 ```bash
 # Create PostgreSQL database
-createdb paperpal
+createdb essayto
 
 # Run migrations (after implementing migration system)
 npm run migrate --workspace=backend
@@ -79,7 +79,7 @@ This will start:
 ## Project Structure
 
 ```
-paperpal-monorepo/
+essayto-monorepo/
 ├── packages/
 │   ├── backend/          # Node.js API server
 │   │   ├── src/

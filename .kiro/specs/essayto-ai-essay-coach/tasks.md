@@ -1,6 +1,6 @@
-# Implementation Plan - PAPERPAL AI Essay Coach
+# Implementation Plan - ESSAYTO AI Essay Coach
 
-This implementation plan breaks down the PAPERPAL system into discrete, actionable coding tasks. Each task builds incrementally on previous work, with all code integrated into the application (no orphaned code).
+This implementation plan breaks down the ESSAYTO system into discrete, actionable coding tasks. Each task builds incrementally on previous work, with all code integrated into the application (no orphaned code).
 
 ---
 

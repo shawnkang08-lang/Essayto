@@ -1,6 +1,6 @@
 # 🆓 100% FREE Deployment Guide
 
-Deploy PAPERPAL completely free using Render + Vercel!
+Deploy ESSAYTO completely free using Render + Vercel!
 
 ## Cost: $0/month ✅
 
@@ -26,9 +26,9 @@ Deploy PAPERPAL completely free using Render + Vercel!
 
 ### Create PostgreSQL Database
 1. Click **"New +"** → **"PostgreSQL"**
-2. Name: `paperpal-db`
-3. Database: `paperpal`
-4. User: `paperpal`
+2. Name: `essayto-db`
+3. Database: `essayto`
+4. User: `essayto`
 5. Region: Choose closest to you
 6. Plan: **Free** ✅
 7. Click **"Create Database"**
@@ -37,9 +37,9 @@ Deploy PAPERPAL completely free using Render + Vercel!
 
 ### Create Web Service
 1. Click **"New +"** → **"Web Service"**
-2. Connect your GitHub repository: **Paperpal**
+2. Connect your GitHub repository: **Essayto**
 3. Configure:
-   - **Name:** `paperpal-backend`
+   - **Name:** `essayto-backend`
    - **Region:** Same as database
    - **Branch:** `main`
    - **Root Directory:** `packages/backend`
@@ -55,7 +55,7 @@ Click **"Environment"** tab and add:
 NODE_ENV=production
 PORT=10000
 DATABASE_URL=YOUR_INTERNAL_DATABASE_URL_FROM_STEP_ABOVE
-JWT_SECRET=paperpal-super-secret-key-change-this-12345
+JWT_SECRET=essayto-super-secret-key-change-this-12345
 LLM_PROVIDER=groq
 GROQ_API_KEY=your_groq_api_key_here
 GROQ_MODEL=llama-3.3-70b-versatile
@@ -71,7 +71,7 @@ RATE_LIMIT_MAX_REQUESTS=100
 
 4. Click **"Create Web Service"**
 5. Wait 5-10 minutes for first deployment
-6. **Copy your backend URL** (e.g., `https://paperpal-backend.onrender.com`)
+6. **Copy your backend URL** (e.g., `https://essayto-backend.onrender.com`)
 
 ---
 
@@ -84,7 +84,7 @@ RATE_LIMIT_MAX_REQUESTS=100
 
 ### Import Project
 1. Click **"Add New..."** → **"Project"**
-2. Click **"Import"** next to **Paperpal** repository
+2. Click **"Import"** next to **Essayto** repository
 3. Configure:
    - **Framework Preset:** Vite
    - **Root Directory:** `packages/frontend`
@@ -101,14 +101,14 @@ RATE_LIMIT_MAX_REQUESTS=100
 
 **Your app is live!** 🎉
 
-Copy your Vercel URL (e.g., `https://paperpal.vercel.app`)
+Copy your Vercel URL (e.g., `https://essayto.vercel.app`)
 
 ---
 
 ## Step 3: Update CORS
 
 1. Go back to Render
-2. Click on your **paperpal-backend** service
+2. Click on your **essayto-backend** service
 3. Go to **"Environment"**
 4. Update `CORS_ORIGIN` to your Vercel URL: `https://your-app.vercel.app`
 5. Save (it will auto-redeploy)

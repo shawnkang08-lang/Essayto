@@ -1,6 +1,6 @@
 # Deployment Guide
 
-This guide will help you deploy PAPERPAL to the internet.
+This guide will help you deploy ESSAYTO to the internet.
 
 ## Prerequisites
 
@@ -12,7 +12,7 @@ This guide will help you deploy PAPERPAL to the internet.
 ## Step 1: Push to GitHub
 
 1. Create a new repository on GitHub: https://github.com/new
-2. Name it `paperpal` (or whatever you prefer)
+2. Name it `essayto` (or whatever you prefer)
 3. Don't initialize with README (we already have one)
 4. Copy the repository URL
 
@@ -28,7 +28,7 @@ git push -u origin main
 1. Go to https://railway.app and sign in
 2. Click "New Project"
 3. Select "Deploy from GitHub repo"
-4. Choose your `paperpal` repository
+4. Choose your `essayto` repository
 5. Railway will detect your monorepo
 
 ### Configure Backend Service:
@@ -59,7 +59,7 @@ CORS_ORIGIN=https://your-app.vercel.app
 **Note:** Railway will auto-fill `DATABASE_URL` and `REDIS_URL` from your databases.
 
 6. Click "Deploy"
-7. Copy your backend URL (something like `https://paperpal-backend.up.railway.app`)
+7. Copy your backend URL (something like `https://essayto-backend.up.railway.app`)
 
 ## Step 3: Deploy Frontend to Vercel
 

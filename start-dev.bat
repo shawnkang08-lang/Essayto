@@ -1,6 +1,6 @@
 @echo off
 echo ========================================
-echo   PAPERPAL Development Setup
+echo   ESSAYTO Development Setup
 echo ========================================
 echo.
 
@@ -31,7 +31,7 @@ echo.
 echo [4/4] Starting development servers...
 echo.
 echo ========================================
-echo   PAPERPAL is starting!
+echo   ESSAYTO is starting!
 echo ========================================
 echo.
 echo Backend API: http://localhost:3000

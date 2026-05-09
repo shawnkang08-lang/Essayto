@@ -1,8 +1,8 @@
-# 🚀 PAPERPAL Quick Start
+# 🚀 ESSAYTO Quick Start
 
 ## ✅ What's Running
 
-Your PAPERPAL application is now running!
+Your ESSAYTO application is now running!
 
 - **Frontend:** http://localhost:5173
 - **Backend API:** http://localhost:3000
@@ -131,7 +131,7 @@ npm run migrate --workspace=backend
 
 ## 🎉 You Did It!
 
-You've successfully set up PAPERPAL with:
+You've successfully set up ESSAYTO with:
 - Complete backend API
 - Working database
 - Basic frontend UI

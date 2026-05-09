@@ -1,4 +1,4 @@
-# PAPERPAL Setup Guide
+# ESSAYTO Setup Guide
 
 ## Quick Start (After Docker is Installed)
 
@@ -10,7 +10,7 @@ This will:
 - Run database migrations
 - Start the backend and frontend servers
 
-### 2. Access PAPERPAL
+### 2. Access ESSAYTO
 - **Backend API:** http://localhost:3000
 - **Frontend:** http://localhost:5173
 - **Health Check:** http://localhost:3000/health
@@ -45,8 +45,8 @@ docker ps
 
 ### View container logs
 ```bash
-docker logs paperpal-postgres
-docker logs paperpal-redis
+docker logs essayto-postgres
+docker logs essayto-redis
 ```
 
 ### Stop containers
@@ -91,7 +91,7 @@ Edit `packages/backend/.env` to configure:
 
 ### "Cannot connect to database"
 - Wait 10 seconds after starting Docker
-- Run: `docker logs paperpal-postgres` to check for errors
+- Run: `docker logs essayto-postgres` to check for errors
 
 ### "Migrations failed"
 - Make sure PostgreSQL container is running

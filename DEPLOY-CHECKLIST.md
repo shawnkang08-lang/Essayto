@@ -4,7 +4,7 @@ Follow these steps in order:
 
 ## ☐ 1. Create GitHub Repository
 - [ ] Go to https://github.com/new
-- [ ] Name: `paperpal`
+- [ ] Name: `essayto`
 - [ ] Visibility: Public
 - [ ] Don't initialize with README
 - [ ] Click "Create repository"
@@ -27,7 +27,7 @@ git push -u origin main
 ### Create New Project
 - [ ] Click "New Project"
 - [ ] Select "Deploy from GitHub repo"
-- [ ] Choose your `paperpal` repository
+- [ ] Choose your `essayto` repository
 - [ ] Railway will create a service
 
 ### Add PostgreSQL Database
@@ -66,7 +66,7 @@ RATE_LIMIT_MAX_REQUESTS=100
 
 - [ ] Click "Deploy"
 - [ ] Wait 3-5 minutes for deployment
-- [ ] Copy your backend URL (e.g., `https://paperpal-production.up.railway.app`)
+- [ ] Copy your backend URL (e.g., `https://essayto-production.up.railway.app`)
 
 ## ☐ 4. Deploy Frontend on Vercel
 
@@ -77,7 +77,7 @@ RATE_LIMIT_MAX_REQUESTS=100
 
 ### Import Project
 - [ ] Click "Add New..." → "Project"
-- [ ] Click "Import" next to your `paperpal` repository
+- [ ] Click "Import" next to your `essayto` repository
 - [ ] Configure project:
   - Framework Preset: **Vite**
   - Root Directory: **packages/frontend**
@@ -91,7 +91,7 @@ RATE_LIMIT_MAX_REQUESTS=100
   - Value: `YOUR_RAILWAY_BACKEND_URL` (from step 3)
 - [ ] Click "Deploy"
 - [ ] Wait 2-3 minutes
-- [ ] Copy your frontend URL (e.g., `https://paperpal.vercel.app`)
+- [ ] Copy your frontend URL (e.g., `https://essayto.vercel.app`)
 
 ## ☐ 5. Update CORS Settings
 
